@@ -500,14 +500,54 @@
 // var b=area(width,height)
 // document.write(b)
 
+
 //       **** Chapter 35-38 ****   Task 10 ****
 
-function wordcheck(word){
-        var wordPalindrome=word.split("")
-        wordPalindrome.reverse()
-        var newWord=concat(wordPalindrome)
-        if(word===wordPalindrome){
-                alert("Word ok")
-        }
-        
-}
+
+// var word=prompt("Enter Word")
+// function wordcheck(word){
+//         var newWord="";
+//         for(i=word.length-1;i>=0;i--){
+//                 newWord +=word[i]
+//         }
+//         if(word===newWord){
+//                 return alert(word+" is Palindrome")
+//         }
+//         else 
+//                 return alert(word+" is not palindrome")
+// }
+//       var g = wordcheck(word);
+
+
+//       **** Chapter 35-38 ****   Task 11 ****
+
+
+
+//       **** Chapter 35-38 ****   Task 12 ****
+
+
+
+//       **** Chapter 35-38 ****   Task 13 ****
+
+
+
+//       **** Chapter 35-38 ****   Task 14 ****
+
+// var radius=+prompt("Enter Value of Radius")
+// function calcCircumference(radius){
+//         const pi=3.14159;
+//         var cirCircle=2*pi*radius;
+//        var circumfixed= cirCircle.toFixed(2)
+//         return document.write("Circumference of circle is: "+circumfixed+"<br>")
+// }
+// function calcArea(radius){
+//         const pi=3.14159;
+//         var areaCircle=pi*Math.pow(radius,2)
+//        var areafixed= areaCircle.toFixed(2)
+//         return document.write("Area of circle is: "+areafixed)
+// }
+
+// var g=calcCircumference(radius);
+
+// var h=calcArea(radius)
+
